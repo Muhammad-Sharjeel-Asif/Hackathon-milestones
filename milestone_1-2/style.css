@@ -1,0 +1,138 @@
+body{
+    margin: 6% 10%;
+    background-color: white;
+    color: black;
+}
+
+.container{
+    display: flex;
+}
+
+.left-sec{
+    background-color: #006666;
+    width: 40%;
+    color: white;
+}
+
+.Profile-pic{
+    width: 55%;
+    height: 55%;
+    border-radius: 50%;
+    margin: 13% 22.5% 6% 22.5%;
+    border:  7px solid #083434;
+}
+
+.left-sec h3{
+    margin: 5% 3% 5% 3%;
+    /* padding: 3% 4% 3% 4%; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+}
+
+.left-sec p{
+    text-align: justify;
+    hyphens: auto;
+    margin: 6% 3% 6% 3%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: system-ui;
+    text-align: center;
+    font-size: 309%;
+    color: #006666;
+    padding: 1% 0 0 0;
+    justify-self: end;
+}
+
+.right-sec{
+    width: 55%;
+    background-color: whitesmoke;
+}
+
+.right-top{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 80%;
+}
+
+.img{
+    width: 6%;
+    margin: 3px 0 -13px 0;
+    padding: 0 4% 0 0;
+}
+
+.right-sec p{
+    hyphens: auto;
+    font-size: 22px;   
+    padding: 0;
+    margin: -1% -2% 3% 7%;
+    font-family: sans-serif;
+}
+
+.right-sec h3{
+    margin: 5% 3% 3% 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 30px;
+    box-shadow: 0 0 15px;
+}
+
+ul{
+    hyphens: auto;
+    font-size: 20px;   
+    padding: 0;
+    margin: 1% 4% 3% 14%;
+    font-family: sans-serif;
+}
+
+#education p{
+    /* font-size: 10px; */
+    margin: 0 0 5px 10%;
+}
+
+/* Dark-mode */
+body.dark-mode{
+    background-color: #000000c9;
+}
+
+#toggle-dark{
+    padding: 3%;
+}
+
+.btn{
+    background-color: white;
+    cursor: pointer;
+    color: #006666;
+    border: 3px solid #006666;
+    font-family: sans-serif;
+}
+
+#toggle-dark{
+    border-radius: 28px;
+    font-size: 11px;
+    width: 85%;
+    height: 30%;
+    align-self: self-start;
+    justify-self: right;
+    margin: 6% 1% 0 0;
+}
+
+#toggle-exp{
+    margin: 0% 27.5% 2% 31%;
+    font-size: 20px;
+    border-radius: 80px;
+    padding: 1.5% 7%;
+}
+
+#contact-info{
+    margin-top: -4%;
+}
